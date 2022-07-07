@@ -1,7 +1,7 @@
 const statusDisplay = document.querySelector('.status');
 
 let gameActive = true;
-let currentPlayer = "X";
+let currentPlayer = "C";
 let gameState = ["", "", "", "", "", "", "", "", ""];
 
 const winningMessage = () => `Player ${currentPlayer} has won!`;
